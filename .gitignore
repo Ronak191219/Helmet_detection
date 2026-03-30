@@ -1,7 +1,6 @@
 # Dataset and training outputs
 dataset/
 runs/
-runs/detects/
 
 # Model files
 *.pt
