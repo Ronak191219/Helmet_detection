@@ -1,0 +1,14 @@
+# Dataset and training outputs
+dataset/
+runs/
+
+# Model files
+*.pt
+
+# Cache
+__pycache__/
+
+# Images (extra safety)
+*.jpg
+*.png
+*.jpeg
