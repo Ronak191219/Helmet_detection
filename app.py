@@ -9,7 +9,7 @@ st.title("Helmet Detection App ")
 # Load model (cached to avoid reloading on every run)
 @st.cache_resource
 def load_model():
-    return YOLO("runs/detect/train10/weights/best.pt")
+    return YOLO("runs/detect/train12/weights/best.pt")
 
 model = load_model()
 

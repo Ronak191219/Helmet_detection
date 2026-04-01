@@ -1,8 +1,8 @@
 from ultralytics import YOLO
 model = YOLO("yolov8n.pt")
 model.train(
-    data="C:/object_detection_project/dataset/data.yaml",
-    epochs=10,
+    data="dataset/data.yaml",   # 👈 relative path use kar
+    epochs=5,
     imgsz=640
 )
 print("Training Done")
